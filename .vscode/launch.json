@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "CrystalCavern (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CrystalCavern Win64 Debug Build",
+			"program": "D:\\Jack S. Jadoenath\\Documents\\Unreal Projects\\CrystalCavern\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CrystalCavern (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CrystalCavern Win64 DebugGame Build",
+			"program": "D:\\Jack S. Jadoenath\\Documents\\Unreal Projects\\CrystalCavern\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CrystalCavern (Development)",
+			"request": "launch",
+			"preLaunchTask": "CrystalCavern Win64 Development Build",
+			"program": "D:\\Jack S. Jadoenath\\Documents\\Unreal Projects\\CrystalCavern\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CrystalCavern (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CrystalCavern Win64 Shipping Build",
+			"program": "D:\\Jack S. Jadoenath\\Documents\\Unreal Projects\\CrystalCavern\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CrystalCavern (Test)",
+			"request": "launch",
+			"preLaunchTask": "CrystalCavern Win64 Test Build",
+			"program": "D:\\Jack S. Jadoenath\\Documents\\Unreal Projects\\CrystalCavern\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CrystalCavernEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CrystalCavernEditor Win64 Debug Build",
+			"program": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Jack S. Jadoenath\\Documents\\Unreal Projects\\CrystalCavern\\CrystalCavern.uproject"
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CrystalCavernEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CrystalCavernEditor Win64 DebugGame Build",
+			"program": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Jack S. Jadoenath\\Documents\\Unreal Projects\\CrystalCavern\\CrystalCavern.uproject"
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CrystalCavernEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CrystalCavernEditor Win64 Development Build",
+			"program": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Jack S. Jadoenath\\Documents\\Unreal Projects\\CrystalCavern\\CrystalCavern.uproject"
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Jack S. Jadoenath\\Documents\\Unreal Projects\\CrystalCavern\\CrystalCavern.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Program Files\\Epic Games\\UE_4.23"
+		}
+	]
+}
